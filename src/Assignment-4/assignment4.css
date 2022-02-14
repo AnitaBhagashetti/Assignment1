@@ -62,18 +62,11 @@ header
     height: 50px;
     padding: 0 25px;
 }
-header img
-{
-    float: left;
-    height: 35px;
-    width: 35px;
-    margin-top: 8px;
-    margin-left: 0px;
-}
+
 header h1 {
     float: left;
     
-    background: url('./icons/Dog-logo.svg')no-repeat;
+    background: url('./images/dog-icon.png') no-repeat;
     height: 35px;
     width: 35px;
     margin-top: 8px;
@@ -87,9 +80,9 @@ header ul
 nav li 
 {
     display: inline-block;
-    margin-top: 5px;
-    margin-bottom: 5px;
     
+    margin-bottom: 5px;
+    margin-top: 15px;
    
 
 }
@@ -98,6 +91,8 @@ nav li a
     text-decoration: none;
     margin-left: 2px;
     margin-right: 2px;
+    
+ 
 }
 nav li:hover {
     background: #3F8DA7;
@@ -114,11 +109,11 @@ nav li:hover {
       margin-bottom: 50px;
       
   }
-  #Hero h1
+  #hero h1
   {
     padding: 10px 0px;
   }
-  #Hero img
+  #hero img
   {
       border-radius: 50%;
       display: block;
@@ -129,7 +124,7 @@ nav li:hover {
       width: 200px;
       height: 200px;
     }
-  #Hero a
+  #hero a
   {
       text-decoration: none;
       border: 5px solid;

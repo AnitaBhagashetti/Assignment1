@@ -58,14 +58,14 @@ border: 2px solid;
 
    
 }
-.main-content-section
+#main-content-section
 {
     display: inline-block;
     width:50%;
    
 
 }
-.rightaside
+#right-sidebar-menu
 {
    
     list-style: none;
